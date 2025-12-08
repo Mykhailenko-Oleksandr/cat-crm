@@ -1,0 +1,28 @@
+$brakepoints: (
+  'sm': 375px,
+  'md': 768px,
+  'lg': 1200px,
+  'xl': 1440px,
+  'xxl': 1920px,
+);
+
+$colors: (
+  'light': #ffffff,
+  'light-primary': #fafafb,
+  'light-secondary': #b5b5be,
+  'light-tertiary': #92929d,
+  'dark': #000000,
+  'dark-primary': #13131a,
+  'dark-secondary': #fff,
+  'dark-tertiary': #fff,
+  'accent': #fff,
+  'accent-primary': #fff,
+  'accent-secondary': #fff,
+  'accent-tertiary': #fff,
+  'danger': #fff,
+  'success': #fff,
+  'warning': #fff,
+  'info': #fff,
+  'transparent': #fff,
+  'current': #fff,
+);
