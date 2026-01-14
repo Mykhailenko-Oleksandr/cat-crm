@@ -1,22 +1,22 @@
 # SCSS Project – Cat CRM Dashboard
 
-Цей проєкт — навчальний приклад CRM‑системи з адаптивним інтерфейсом,
-стилізованим за допомогою **SCSS** та зібраним через **Vite**.  
-Інтерфейс включає головну сторінку з дашбордом та сторінку компаній.
+This project is a learning example of a CRM system with a responsive interface,
+styled using **SCSS** and built with **Vite**.  
+The interface includes a main dashboard page and a companies page.
 
 ---
 
-## 🗂️ Сторінки
+## 🗂️ Pages
 
-- **Головна (`/`)**
+- **Main (`/`)**
 
-  - Панель навігації (Overview, Contacts, Companies, Deals, Document, Messages,
+  - Navigation panel (Overview, Contacts, Companies, Deals, Document, Messages,
     Calendar, Report)
-  - Привітання користувача та кнопка дій
-  - Секція "Co-workers | Marketing department" з картками співробітників
+  - User greeting and action button
+  - "Co-workers | Marketing department" section with employee cards
 
 - **Companies (`/companies.html`)**
-  - Список компаній
-  - Базова структура для перегляду та управління даними
+  - List of companies
+  - Basic structure for viewing and managing data
 
 ---
