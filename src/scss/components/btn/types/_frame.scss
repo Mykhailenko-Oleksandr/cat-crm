@@ -2,20 +2,24 @@
   /* == Frame == */
 
   .btn--frame {
+    color: #f07f2e;
     border-color: #f07f2e;
 
     &:active {
+      color: #d14a00;
       border-color: #d14a00;
     }
 
     @media (hover: hover) {
       &:hover,
       &:focus {
+        color: #f15c27;
         border-color: #f15c27;
       }
     }
 
     &[disabled] {
+      color: rgba(#b5b5be, 0.5);
       background-color: rgba(#b5b5be, 0.5);
     }
   }
