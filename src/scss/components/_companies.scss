@@ -4,34 +4,23 @@
 @use '../utils/mixins' as mx;
 
 .page--companies {
-  grid-template-columns: 1fr;
-  grid-auto-flow: row;
-}
-
-.companies {
+  display: block;
 }
 
 .companies-title {
-}
-.companies-text {
-}
-.companies-list {
-}
-.companies-item {
-}
-.companies-item-title-box {
-}
-.companies-item-title {
-}
-.companies-item-icon {
-}
-.companies-item-location-box {
-}
-.companies-item-location-icon {
-}
-.companies-item-location-text {
+  @extend %section-title;
+
+  margin-bottom: 8px;
+
+  @include mx.mq('md') {
+    margin-bottom: 16px;
+  }
 }
 
-.btn {
-  //   color: fn.get-color('accent-primary');
+.companies-text {
+  margin-bottom: 40px;
+
+  @include mx.mq('md') {
+    margin-bottom: 36px;
+  }
 }
