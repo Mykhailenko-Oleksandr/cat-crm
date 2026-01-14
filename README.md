@@ -20,16 +20,3 @@
   - Базова структура для перегляду та управління даними
 
 ---
-
-## ⚙️ Технології
-
-- [Vite](https://vitejs.dev/) — швидка збірка та дев‑сервер
-- [SCSS](https://sass-lang.com/) — препроцесор для стилів
-- [Anime.js](https://animejs.com/) — анімації
-- [Body Scroll Lock](https://github.com/willmcpo/body-scroll-lock) — блокування
-  скролу при відкритті меню
-- [PurgeCSS](https://purgecss.com/) — оптимізація стилів
-- [vite-plugin-image-optimizer](https://github.com/FatehAK/vite-plugin-image-optimizer)
-  — оптимізація зображень
-
----
